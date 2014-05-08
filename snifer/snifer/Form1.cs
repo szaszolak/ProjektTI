@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using PcapDotNet.Core;
 using System.Threading;
+using snifer.Models;
 
 namespace snifer
 {
@@ -91,6 +92,12 @@ namespace snifer
                 capture_th.Join();
                 NetworMapper test = new NetworMapper(tmp.CapturedPackets);
                 test.mapNetwork();
+                dGVpackets.Rows.Clear();
+                foreach (NetworkBoundModel packet in test.Bounds)
+                {
+                    dGVpackets.Rows.Add(packet.boundedNodes[0].ToString(), packet.boundedNodes[1].ToString(), packet.PacketCount);
+                }
+
         }
     }
 }

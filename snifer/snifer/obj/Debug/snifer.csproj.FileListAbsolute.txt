@@ -18,3 +18,19 @@ C:\Users\Ulf\Desktop\projek Walkowiak\sniffer\snifer\snifer\obj\Debug\snifer.csp
 C:\Users\Ulf\Desktop\projek Walkowiak\sniffer\snifer\snifer\obj\Debug\snifer.exe
 C:\Users\Ulf\Desktop\projek Walkowiak\sniffer\snifer\snifer\obj\Debug\snifer.pdb
 C:\Users\Ulf\Desktop\projek Walkowiak\sniffer\snifer\snifer\obj\Debug\snifer.Form1.resources
+C:\Users\Mikołaj\Source\Repos\ProjektTI\snifer\snifer\obj\Debug\snifer.exe
+C:\Users\Mikołaj\Source\Repos\ProjektTI\snifer\snifer\obj\Debug\snifer.pdb
+C:\Users\Mikołaj\Source\Repos\ProjektTI\snifer\snifer\bin\Debug\snifer.exe
+C:\Users\Mikołaj\Source\Repos\ProjektTI\snifer\snifer\bin\Debug\snifer.pdb
+C:\Users\Mikołaj\Source\Repos\ProjektTI\snifer\snifer\bin\Debug\PcapDotNet.Base.pdb
+C:\Users\Mikołaj\Source\Repos\ProjektTI\snifer\snifer\bin\Debug\PcapDotNet.Base.xml
+C:\Users\Mikołaj\Source\Repos\ProjektTI\snifer\snifer\bin\Debug\PcapDotNet.Core.pdb
+C:\Users\Mikołaj\Source\Repos\ProjektTI\snifer\snifer\bin\Debug\PcapDotNet.Core.xml
+C:\Users\Mikołaj\Source\Repos\ProjektTI\snifer\snifer\bin\Debug\PcapDotNet.Core.Extensions.pdb
+C:\Users\Mikołaj\Source\Repos\ProjektTI\snifer\snifer\bin\Debug\PcapDotNet.Core.Extensions.xml
+C:\Users\Mikołaj\Source\Repos\ProjektTI\snifer\snifer\bin\Debug\PcapDotNet.Packets.pdb
+C:\Users\Mikołaj\Source\Repos\ProjektTI\snifer\snifer\bin\Debug\PcapDotNet.Packets.xml
+C:\Users\Mikołaj\Source\Repos\ProjektTI\snifer\snifer\obj\Debug\snifer.csprojResolveAssemblyReference.cache
+C:\Users\Mikołaj\Source\Repos\ProjektTI\snifer\snifer\obj\Debug\snifer.Form1.resources
+C:\Users\Mikołaj\Source\Repos\ProjektTI\snifer\snifer\obj\Debug\snifer.Properties.Resources.resources
+C:\Users\Mikołaj\Source\Repos\ProjektTI\snifer\snifer\obj\Debug\snifer.csproj.GenerateResource.Cache

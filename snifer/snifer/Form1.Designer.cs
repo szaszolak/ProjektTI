@@ -32,12 +32,11 @@
             this.rBtn_Networ_Devices = new System.Windows.Forms.RadioButton();
             this.button2 = new System.Windows.Forms.Button();
             this.dGVpackets = new System.Windows.Forms.DataGridView();
-            this.From = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Via = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.To = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button3 = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.checkSum = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.From = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Via = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PacketCount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dGVpackets)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,27 +73,11 @@
             this.dGVpackets.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.From,
             this.Via,
-            this.To,
-            this.checkSum});
+            this.PacketCount});
             this.dGVpackets.Location = new System.Drawing.Point(23, 292);
             this.dGVpackets.Name = "dGVpackets";
             this.dGVpackets.Size = new System.Drawing.Size(586, 159);
             this.dGVpackets.TabIndex = 5;
-            // 
-            // From
-            // 
-            this.From.HeaderText = "From";
-            this.From.Name = "From";
-            // 
-            // Via
-            // 
-            this.Via.HeaderText = "Via";
-            this.Via.Name = "Via";
-            // 
-            // To
-            // 
-            this.To.HeaderText = "To";
-            this.To.Name = "To";
             // 
             // button3
             // 
@@ -110,10 +93,20 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // checkSum
+            // From
             // 
-            this.checkSum.HeaderText = "check sum";
-            this.checkSum.Name = "checkSum";
+            this.From.HeaderText = "From";
+            this.From.Name = "From";
+            // 
+            // Via
+            // 
+            this.Via.HeaderText = "To";
+            this.Via.Name = "Via";
+            // 
+            // PacketCount
+            // 
+            this.PacketCount.HeaderText = "Packet Count";
+            this.PacketCount.Name = "PacketCount";
             // 
             // Form1
             // 
@@ -138,12 +131,11 @@
         private System.Windows.Forms.RadioButton rBtn_Networ_Devices;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridView dGVpackets;
-        private System.Windows.Forms.DataGridViewTextBoxColumn From;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Via;
-        private System.Windows.Forms.DataGridViewTextBoxColumn To;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn checkSum;
+        private System.Windows.Forms.DataGridViewTextBoxColumn From;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Via;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PacketCount;
     }
 }
 

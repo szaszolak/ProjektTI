@@ -18,13 +18,13 @@ namespace snifer
             packet.DestinationAddres = input.Ethernet.Destination.ToString();
          
             string tmp;
-           
-            if(input.IpV4.Payload != null)
-             tmp = input.IpV4.HeaderChecksum.ToString() + input.IpV4.Payload.ToHexadecimalString();
+           // input.Ethernet.Trailer.ToHexadecimalString();
+            if (input.IpV4.Payload != null)
+                tmp = input.Timestamp.Ticks.ToString();
             else
-                tmp = input.IpV4.HeaderChecksum.ToString();
+                tmp = input.Timestamp.Ticks.ToString();
 
-            packet.CheckSum = chceckSumCalculator.CalculateMD5Hash(tmp);
+            packet.CheckSum = tmp;//( input.Ethernet.Trailer == null?tmp:chceckSumCalculator.CalculateMD5Hash(input.Ethernet.Trailer.ToHexadecimalString()));// tmp; //tmp);
             packet.Ttl = input.IpV4.Ttl;
             
             return packet;
