@@ -1,0 +1,28 @@
+﻿<Window x:Class="ShapeConnectors.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:ShapeConnectors"
+    Title="Window1" Height="376" Width="801" Loaded="WindowLoaded">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ControlTemplate x:Key="template1">
+                <StackPanel>
+                    <Image Name="tplImage" Source="Images/pc.png" Stretch="Uniform" Width="32" Height="32"/>
+                    <TextBlock Name="tplTextBlock" Text="User stage"/>
+                </StackPanel>
+            </ControlTemplate>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Canvas Name="myCanvas">
+
+        <Button Canvas.Left="15" Canvas.Top="16" Height="22" Name="btnNewAction" Width="75" Click="BtnNewActionClick">new action</Button>
+
+        <Button Canvas.Left="15" Canvas.Top="50" Height="22" Name="addVertex" Width="75" Click="addVertexClick">addVertex</Button>
+        <Button Canvas.Left="15" Canvas.Top="80" Height="22" Name="addRouter" Width="75" Click="addRouterClick">addRouter</Button>
+        <Button Canvas.Left="15" Canvas.Top="110" Height="22" Name="addEdge" Width="75" Click="addEdgeClick">addEdge</Button>
+        <TextBox Name="pole" Height="185" Canvas.Left="635" TextWrapping="Wrap" Text="debug" Canvas.Top="49" Width="111"/>
+        <TextBox Name="address" Height="23" Canvas.Left="95" TextWrapping="Wrap" Text="MAC" Canvas.Top="64" Width="120"/>
+        <TextBox Name="source" Height="23" Canvas.Left="15" TextWrapping="Wrap" Text="source MAC" Canvas.Top="152" Width="120"/>
+        <TextBox Name="destiny" Height="23" Canvas.Left="15" TextWrapping="Wrap" Text="destiny MAC" Canvas.Top="180" Width="120"/>
+    </Canvas>
+</Window>
